@@ -121,3 +121,6 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+GOOGLE_ANALYTICS_CREDENTIALS = os.path.join(BASE_DIR, 'credentials.json') # TODO: ADD creadential.json
