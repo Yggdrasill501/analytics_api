@@ -1,8 +1,4 @@
-Certainly! Here's the updated README file:
-
----
-
-# Django Google Analytics 4 API Integration with Next.js Frontend
+# Google Analytics 4 API
 
 ## Overview
 
