@@ -1,56 +1,56 @@
-# Django Google Analytics 4 API Integration
-
-## Overview
-
-This project is a Django application designed to interact with the Google Analytics 4 API. The main purpose of this application is to serve as a backend service that can fetch and provide analytics data from Google Analytics 4. This can be used to create various views and reports based on the data retrieved from the API.
-
-## Features
-
-- **Google Analytics 4 Integration**: Seamlessly integrates with the Google Analytics 4 API using OAuth 2.0 authentication.
-- **Data Fetching**: Capable of fetching a variety of analytics data, including metrics and dimensions defined in Google Analytics.
-- **Customizable Reports**: Supports creating custom reports and endpoints to fetch specific data as per your requirements.
-- **JSON Responses**: Provides data in JSON format, making it easy to use for front-end applications or further data processing.
-
-## Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-- Python 3.x installed on your local machine.
-- Django installed (preferably within a virtual environment).
-- A Google Cloud project with the Google Analytics API enabled.
-- OAuth 2.0 credentials (Client ID and Client Secret) from the Google Cloud Console.
-- A Google Analytics 4 property with the necessary permissions to access the data.
-
-## Setup and Installation
-
-1. **Clone the Repository**: Clone this repository to your local machine.
-
-2. **Install Dependencies**: Navigate to the project directory and install the necessary Python packages.
-
-3. **Google Cloud Credentials**: Place your `credentials.json` file in the project directory. This file contains your OAuth 2.0 credentials.
-
-4. **Configuration**: Update your Django `settings.py` file to include the path to your `credentials.json` file and any other necessary settings.
-
-5. **Run Migrations**: Apply any database migrations required by Django.
-
-6. **Start the Server**: Launch the Django development server to start using the application.
-
-## Usage
-
-- **Endpoints**: Access the predefined endpoints to fetch various reports and analytics data.
-- **Customization**: Modify or add new views and endpoints to tailor the data fetching to your specific needs.
-
-## Contributing
-
-Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure that your code follows the project’s coding standards and includes appropriate tests.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-## Contact
-
-If you have any questions or need further assistance, feel free to open an issue or contact the project maintainers.
+Certainly! Here's the updated README file:
 
 ---
 
+# Django Google Analytics 4 API Integration with Next.js Frontend
+
+## Overview
+
+This project is a full-stack application integrating a Django backend with a Next.js frontend. The backend interacts with the Google Analytics 4 API to fetch and serve analytics data, while the frontend displays this data in a user-friendly manner.
+
+## Features
+
+- **Google Analytics 4 Integration**: Connects to the Google Analytics 4 API using OAuth 2.0 for secure data access.
+- **Data Fetching**: Retrieves a variety of metrics and dimensions from Google Analytics.
+- **Customizable Reports**: Supports the creation of custom reports and endpoints for specific data needs.
+- **Next.js Frontend**: Utilizes Next.js for a modern, responsive user interface.
+- **JSON Responses**: Backend serves data in JSON format, making it easy to integrate with the frontend or other applications.
+
+## Prerequisites
+
+Before starting, ensure you have the following:
+
+- Python 3.x and Node.js installed on your machine.
+- Django and necessary Python packages installed.
+- A Google Cloud project with the Google Analytics API enabled.
+- OAuth 2.0 credentials (Client ID and Client Secret) from Google Cloud Console.
+- A Google Analytics 4 property with appropriate permissions.
+- Next.js and necessary Node.js packages installed.
+
+## Setup and Installation
+
+### Backend (Django)
+
+1. **Clone the Repository**: Clone the repository to your local machine.
+2. **Install Dependencies**: Install required Python packages.
+3. **Google Cloud Credentials**: Place the `credentials.json` file in your project directory.
+4. **Configuration**: Update the Django `settings.py` file with the path to your credentials and any other necessary settings.
+5. **Run Migrations**: Apply any database migrations required by Django.
+6. **Start the Server**: Launch the Django development server.
+
+### Frontend (Next.js)
+
+1. **Create Next.js Project**: Create a new Next.js project.
+2. **Install Dependencies**: Install necessary Node.js packages like `axios`.
+3. **Fetch and Display Data**: Implement pages and components to fetch data from the Django backend and display it.
+4. **Run the Development Server**: Start the Next.js development server.
+
+## Usage
+
+- **Endpoints**: Access predefined endpoints in the Django backend to fetch various reports and analytics data.
+- **Customization**: Modify or add new views and endpoints in Django and Next.js to tailor the data fetching and display to your specific needs.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository, make your changes, and submit a pull request. Ensure that your code adheres to the project's coding standards and includes appropriate tests.
+---
